@@ -1,20 +1,17 @@
 import React from 'react';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Main from './components/Main';
-import Aside from './components/Aside';
-import Footer from './components/Footer';
-import './styles/App.css';
+import Header from './components/header/header';
+import Footer from './components/footer/footer';
+import Navbar from './components/navbar/navbar';
+import Banner from './components/banner/banner';
+import Menu from './components/menu/menu';
 
 function App() {
     return (
         <div className="App">
             <Header />
-            <div className="main-container">
-                <Nav />
-                <Main />
-                <Aside />
-            </div>
+            <Navbar />
+            <Banner />
+            <Menu />
             <Footer />
         </div>
     );

@@ -1,0 +1,39 @@
+/* Configuração geral da barra de navegação */
+.navbar {
+    background-color: #8B5A6D; /* Cor de fundo semelhante à da imagem */
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    gap: 20px;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 30px; /* Espaçamento entre os itens */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* Estilo para os ícones */
+  .navbar li svg {
+    font-size: 24px; /* Tamanho dos ícones */
+    margin-bottom: 5px; /* Espaço entre ícone e texto */
+    color: white;
+  }
+  
+  /* Efeito de hover para interatividade */
+  .navbar li:hover {
+    color: #D3A1A8; /* Cor de hover para ícones e texto */
+  }
+  

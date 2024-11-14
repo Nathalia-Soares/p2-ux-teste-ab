@@ -1,0 +1,72 @@
+/* Estilo geral do menu */
+.menu {
+    font-family: Arial, sans-serif;
+    color: #4A3A3A;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 24px;
+    color: #4A3A3A;
+    padding: 20px 0;
+  }
+  
+  .menu-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Estilos para cada categoria */
+  .category {
+    background-color: #D2C3C3;
+    width: 180px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .category h3 {
+    font-size: 18px;
+    color: #4A3A3A;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #4A3A3A;
+    padding-bottom: 5px;
+  }
+  
+  .category ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category li {
+    font-size: 14px;
+    color: #4A3A3A;
+    margin: 5px 0;
+  }
+  
+  /* Estilo específico para a descrição do bolo */
+  .bolo-description {
+    background-color: #D5B0B0;
+    color: #4A3A3A;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: left;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  .bolo-description h3 {
+    font-size: 18px;
+    color: #4A3A3A;
+    margin-bottom: 10px;
+  }
+  
+  .bolo-description p {
+    font-size: 14px;
+    color: #4A3A3A;
+    margin: 5px 0;
+  }
+  

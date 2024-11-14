@@ -1,0 +1,16 @@
+/* Estilo geral do rodapé */
+.footer {
+    background-color: #4A3A3A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 12px;
+    color: #FFFFFF;
+  }
+  

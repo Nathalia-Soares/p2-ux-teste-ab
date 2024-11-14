@@ -1,0 +1,33 @@
+/* Estilo geral do banner */
+.banner {
+    background-color: #4A3A3A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+  }
+  
+  .banner img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .banner p {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 0 15px;
+  }
+  
+  /* Estilo específico para a mensagem de boas-vindas */
+  .banner::before {
+    content: "Seja muito bem vindo à";
+    display: block;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+  
